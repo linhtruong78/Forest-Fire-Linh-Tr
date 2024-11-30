@@ -12,22 +12,22 @@
 # Testing tool 
 
  - Option1 - POSTMan:
-    Create a new GET request:
-    URL: Paste the API Gateway endpoint.
-    Headers:
-        Content-Type: application/json
-    Body: Select raw and paste the JSON input.
-    Click **Send** to test the API.
-    Check the response under the Body tab.
+    Create a new GET request:<br>
+    URL: Paste the API Gateway endpoint.<br>
+    Headers:<br>
+        Content-Type: application/json<br>
+    Body: Select raw and paste the JSON input.<br>
+    Click **Send** to test the API.<br>
+    Check the response under the Body tab.<br>
 
  - Option2 - CURL (command line)
-    use the following curl command:
-        curl -X GET https://fxi92sp7di.execute-api.us-east-1.amazonaws.com/dev/predict-fire \
-        -H "Content-Type: application/json" \
+    use the following curl command:<br>
+        curl -X GET https://fxi92sp7di.execute-api.us-east-1.amazonaws.com/dev/predict-fire \<br>
+        -H "Content-Type: application/json" \<br>
         -d '{
         "region": 1,
         "date" : "12/11/2023"
-        }'
+        }'<br>
     
     Replace the region and date of your choice
 
