@@ -22,6 +22,7 @@
 
  - Option2 - CURL (command line)
     use the following curl command:<br>
+    
         curl -X GET https://fxi92sp7di.execute-api.us-east-1.amazonaws.com/dev/predict-fire \\
         -H "Content-Type: application/json" \\
         -d '{
